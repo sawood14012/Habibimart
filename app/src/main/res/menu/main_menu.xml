@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:menuCategory="system"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/search"
+        app:showAsAction="collapseActionView|always"/>
+
+
+    <item android:title="Your cart"
+        android:orderInCategory="10000"
+        android:icon="@drawable/cart"
+        android:id="@+id/crt_btn"
+
+        app:showAsAction="ifRoom"/>
+
+</menu>

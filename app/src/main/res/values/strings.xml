@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Habibimart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="del">Delete</string>
+    <string name="x">x</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_tabcat">tabcat</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="login">login</string>
+    <string name="email">someone@mail.com</string>
+    <string name="password">password</string>
+    <string name="passwordf">forgot password?</string>
+    <string name="register">Don\'t have an account?<b>Sign Up</b></string>
+    <string name="phone_no">Phone no</string>
+    <string name="email_id">Email id</string>
+    <string name="name">Name</string>
+    <string name="reg">Register</string>
+    <string name="retype">Re-type password</string>
+    <string name="outford">your order is out for delivery</string>
+    <string name="ordconf">Our officials are processing your order.</string>
+    <string name="snack">Go</string>
+
+</resources>

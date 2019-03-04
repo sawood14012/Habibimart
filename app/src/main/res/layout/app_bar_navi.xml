@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navi">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/del"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:gravity="start"
+                android:text="Delivery location:" />
+
+            <TextView
+                android:id="@+id/loctex"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginStart="112dp"
+                android:layout_marginTop="0dp"
+                android:drawableEnd="@drawable/ic_create"
+                android:ellipsize="end"
+                android:padding="5dip"
+                android:gravity="end"
+                android:maxLines="1"
+                android:text="" />
+
+        </RelativeLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="91dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ordlyt"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Know your Order Status > >"
+                android:textAppearance="@style/FiamUI.ModalBody" />
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/activity_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
